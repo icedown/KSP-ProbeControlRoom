@@ -6,8 +6,8 @@ namespace ProbeControlRoomToolbar
 {
 	[KSPAddon(KSPAddon.Startup.EveryScene, false)]
 	class ProbeControlRoomToolbar : MonoBehaviour {
-		private string enabledTexture = "ProbeControlRoom/ProbeControlRoomToolbarEnabled";
-		private string disabledTexture = "ProbeControlRoom/ProbeControlRoomToolbarDisabled";
+		private string enabledTexture = "ProbeControlRoom/Icons/ProbeControlRoomToolbarEnabled";
+		private string disabledTexture = "ProbeControlRoom/Icons/ProbeControlRoomToolbarDisabled";
 		private IButton button;
 
 
